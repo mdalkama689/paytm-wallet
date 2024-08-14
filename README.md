@@ -20,7 +20,7 @@ The project is organized into two main directories:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mdalkama689/paytm-wallet.git
 cd paytm_wallet
 cd paytm_wallet
 
@@ -34,7 +34,7 @@ PORT=3001
 JWT_SECRET_TOKEN=jwtsecret
 CLIENT_URL=http://localhost:3000
 YOUR_EMAIL=gmail.com
-YOUR_EMAIL_APP_PASSWORD=nbkdsf" > .env
+YOUR_EMAIL_APP_PASSWORD=nbkdsf"
 
 # Start the backend server
 npm start
